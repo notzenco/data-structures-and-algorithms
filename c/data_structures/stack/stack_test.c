@@ -1,9 +1,9 @@
 /**
- * @file test_stack.c
+ * @file stack_test.c
  * @brief Unit tests for stack implementation
  */
 
-#include "dsa/stack.h"
+#include "stack.h"
 #include <assert.h>
 #include <stdio.h>
 

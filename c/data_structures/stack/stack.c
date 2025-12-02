@@ -3,7 +3,7 @@
  * @brief Stack implementation using a dynamic array
  */
 
-#include "dsa/stack.h"
+#include "stack.h"
 #include <stdlib.h>
 
 #define DEFAULT_CAPACITY 16

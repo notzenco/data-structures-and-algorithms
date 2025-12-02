@@ -11,18 +11,17 @@ else()
     add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# Include directories
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
-
-# Source files
-set(DSA_SOURCES
-    src/stack.c
-)
-
-# Create library
-add_library(dsa ${DSA_SOURCES})
-target_include_directories(dsa PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
-
 # Testing
 enable_testing()
-add_subdirectory(tests)
+
+# -----------------------------------------------------------------------------
+# Data Structures
+# -----------------------------------------------------------------------------
+
+# Stack
+add_library(stack data_structures/stack/stack.c)
+target_include_directories(stack PUBLIC data_structures/stack)
+
+add_executable(stack_test data_structures/stack/stack_test.c)
+target_link_libraries(stack_test PRIVATE stack)
+add_test(NAME stack_test COMMAND stack_test)

@@ -20,23 +20,37 @@ ctest --test-dir build --output-on-failure
 ```
 c/
 ├── CMakeLists.txt
-├── include/
-│   └── dsa/          # Header files
-├── src/              # Implementation files
-└── tests/            # Test files
+├── data_structures/
+│   └── stack/
+│       ├── stack.h
+│       ├── stack.c
+│       └── stack_test.c
+└── algorithms/
+    └── ...
 ```
 
-## Implementations
+## Data Structures
 
-| Component | Status | Header | Source |
-|-----------|--------|--------|--------|
-| Stack | ✅ | [stack.h](include/dsa/stack.h) | [stack.c](src/stack.c) |
-| Queue | ❌ | - | - |
-| Dynamic Array | ❌ | - | - |
-| Singly Linked List | ❌ | - | - |
-| Doubly Linked List | ❌ | - | - |
-| Deque | ❌ | - | - |
-| Hash Table | ❌ | - | - |
-| Binary Search Tree | ❌ | - | - |
-| Binary Min Heap | ❌ | - | - |
-| Disjoint Set | ❌ | - | - |
+| Component | Status | Files |
+|-----------|--------|-------|
+| Stack | ✅ | [stack/](data_structures/stack/) |
+| Queue | ❌ | - |
+| Dynamic Array | ❌ | - |
+| Singly Linked List | ❌ | - |
+| Doubly Linked List | ❌ | - |
+| Deque | ❌ | - |
+| Hash Table | ❌ | - |
+| Binary Search Tree | ❌ | - |
+| Binary Min Heap | ❌ | - |
+| Disjoint Set | ❌ | - |
+
+## Algorithms
+
+| Algorithm | Status | Files |
+|-----------|--------|-------|
+| Binary Search | ❌ | - |
+| Insertion Sort | ❌ | - |
+| Merge Sort | ❌ | - |
+| Quick Sort | ❌ | - |
+| BFS | ❌ | - |
+| DFS | ❌ | - |
