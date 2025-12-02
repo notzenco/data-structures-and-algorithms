@@ -101,9 +101,8 @@ std::vector<T> dfs(const Graph<T>& graph, const T& start) {
     return result;
 }
 
-template <typename T>
-void dfs(const Graph<T>& graph, const T& start,
-         std::function<void(const T&)> callback) {
+template <typename T, typename Callback>
+void dfs(const Graph<T>& graph, const T& start, Callback callback) {
     if (!graph.has_vertex(start)) {
         return;
     }

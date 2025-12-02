@@ -11,6 +11,7 @@
 #define DSA_BINARY_SEARCH_HPP
 
 #include <cstddef>
+#include <functional>
 #include <optional>
 #include <vector>
 
