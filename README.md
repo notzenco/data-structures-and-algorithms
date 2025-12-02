@@ -38,7 +38,7 @@ The [`docs/`](docs/) folder contains language-agnostic explanations covering:
 | [Doubly Linked List](docs/data_structures/doubly-linked-list.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Stack](docs/data_structures/stack.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Queue](docs/data_structures/queue.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Deque](docs/data_structures/deque.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Deque](docs/data_structures/deque.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Hash Table](docs/data_structures/hash-table.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Binary Search Tree](docs/data_structures/binary-search-tree.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Binary Min Heap](docs/data_structures/heap.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |

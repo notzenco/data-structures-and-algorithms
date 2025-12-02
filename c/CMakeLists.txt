@@ -57,3 +57,11 @@ target_include_directories(doubly_linked_list PUBLIC data_structures/doubly-link
 add_executable(doubly_linked_list_test data_structures/doubly-linked-list/doubly_linked_list_test.c)
 target_link_libraries(doubly_linked_list_test PRIVATE doubly_linked_list)
 add_test(NAME doubly_linked_list_test COMMAND doubly_linked_list_test)
+
+# Deque
+add_library(deque data_structures/deque/deque.c)
+target_include_directories(deque PUBLIC data_structures/deque)
+
+add_executable(deque_test data_structures/deque/deque_test.c)
+target_link_libraries(deque_test PRIVATE deque)
+add_test(NAME deque_test COMMAND deque_test)

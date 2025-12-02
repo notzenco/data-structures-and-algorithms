@@ -38,7 +38,7 @@ c/
 | Dynamic Array | ✅ | [dynamic-array/](data_structures/dynamic-array/) |
 | Singly Linked List | ✅ | [singly-linked-list/](data_structures/singly-linked-list/) |
 | Doubly Linked List | ✅ | [doubly-linked-list/](data_structures/doubly-linked-list/) |
-| Deque | ❌ | - |
+| Deque | ✅ | [deque/](data_structures/deque/) |
 | Hash Table | ❌ | - |
 | Binary Search Tree | ❌ | - |
 | Binary Min Heap | ❌ | - |
