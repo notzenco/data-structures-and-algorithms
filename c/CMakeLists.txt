@@ -41,3 +41,11 @@ target_include_directories(dynamic_array PUBLIC data_structures/dynamic-array)
 add_executable(dynamic_array_test data_structures/dynamic-array/dynamic_array_test.c)
 target_link_libraries(dynamic_array_test PRIVATE dynamic_array)
 add_test(NAME dynamic_array_test COMMAND dynamic_array_test)
+
+# Singly Linked List
+add_library(singly_linked_list data_structures/singly-linked-list/singly_linked_list.c)
+target_include_directories(singly_linked_list PUBLIC data_structures/singly-linked-list)
+
+add_executable(singly_linked_list_test data_structures/singly-linked-list/singly_linked_list_test.c)
+target_link_libraries(singly_linked_list_test PRIVATE singly_linked_list)
+add_test(NAME singly_linked_list_test COMMAND singly_linked_list_test)

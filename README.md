@@ -34,7 +34,7 @@ The [`docs/`](docs/) folder contains language-agnostic explanations covering:
 | Data Structure | C | C++ | C# | Go | PHP | Python | Rust | TypeScript |
 |----------------|---|-----|----|----|-----|--------|------|------------|
 | [Dynamic Array](docs/data_structures/dynamic-array.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Singly Linked List](docs/data_structures/singly-linked-list.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Singly Linked List](docs/data_structures/singly-linked-list.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Doubly Linked List](docs/data_structures/doubly-linked-list.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Stack](docs/data_structures/stack.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Queue](docs/data_structures/queue.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
