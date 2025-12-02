@@ -65,3 +65,11 @@ target_include_directories(deque PUBLIC data_structures/deque)
 add_executable(deque_test data_structures/deque/deque_test.c)
 target_link_libraries(deque_test PRIVATE deque)
 add_test(NAME deque_test COMMAND deque_test)
+
+# Hash Table
+add_library(hash_table data_structures/hash-table-open-addressing/hash_table.c)
+target_include_directories(hash_table PUBLIC data_structures/hash-table-open-addressing)
+
+add_executable(hash_table_test data_structures/hash-table-open-addressing/hash_table_test.c)
+target_link_libraries(hash_table_test PRIVATE hash_table)
+add_test(NAME hash_table_test COMMAND hash_table_test)
