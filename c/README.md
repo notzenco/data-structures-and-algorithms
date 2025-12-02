@@ -40,7 +40,7 @@ c/
 | Doubly Linked List | ✅ | [doubly-linked-list/](data_structures/doubly-linked-list/) |
 | Deque | ✅ | [deque/](data_structures/deque/) |
 | Hash Table | ✅ | [hash-table-open-addressing/](data_structures/hash-table-open-addressing/) |
-| Binary Search Tree | ❌ | - |
+| Binary Search Tree | ✅ | [binary-search-tree/](data_structures/binary-search-tree/) |
 | Binary Min Heap | ❌ | - |
 | Disjoint Set | ❌ | - |
 

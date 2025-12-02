@@ -73,3 +73,11 @@ target_include_directories(hash_table PUBLIC data_structures/hash-table-open-add
 add_executable(hash_table_test data_structures/hash-table-open-addressing/hash_table_test.c)
 target_link_libraries(hash_table_test PRIVATE hash_table)
 add_test(NAME hash_table_test COMMAND hash_table_test)
+
+# Binary Search Tree
+add_library(bst data_structures/binary-search-tree/bst.c)
+target_include_directories(bst PUBLIC data_structures/binary-search-tree)
+
+add_executable(bst_test data_structures/binary-search-tree/bst_test.c)
+target_link_libraries(bst_test PRIVATE bst)
+add_test(NAME bst_test COMMAND bst_test)

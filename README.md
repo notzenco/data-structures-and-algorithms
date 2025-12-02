@@ -40,7 +40,7 @@ The [`docs/`](docs/) folder contains language-agnostic explanations covering:
 | [Queue](docs/data_structures/queue.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Deque](docs/data_structures/deque.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Hash Table](docs/data_structures/hash-table.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Binary Search Tree](docs/data_structures/binary-search-tree.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Binary Search Tree](docs/data_structures/binary-search-tree.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Binary Min Heap](docs/data_structures/heap.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Disjoint Set](docs/data_structures/disjoint-set.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
