@@ -81,3 +81,11 @@ target_include_directories(bst PUBLIC data_structures/binary-search-tree)
 add_executable(bst_test data_structures/binary-search-tree/bst_test.c)
 target_link_libraries(bst_test PRIVATE bst)
 add_test(NAME bst_test COMMAND bst_test)
+
+# Binary Min Heap
+add_library(heap data_structures/heap-binary-min/heap.c)
+target_include_directories(heap PUBLIC data_structures/heap-binary-min)
+
+add_executable(heap_test data_structures/heap-binary-min/heap_test.c)
+target_link_libraries(heap_test PRIVATE heap)
+add_test(NAME heap_test COMMAND heap_test)

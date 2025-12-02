@@ -41,7 +41,7 @@ c/
 | Deque | ✅ | [deque/](data_structures/deque/) |
 | Hash Table | ✅ | [hash-table-open-addressing/](data_structures/hash-table-open-addressing/) |
 | Binary Search Tree | ✅ | [binary-search-tree/](data_structures/binary-search-tree/) |
-| Binary Min Heap | ❌ | - |
+| Binary Min Heap | ✅ | [heap-binary-min/](data_structures/heap-binary-min/) |
 | Disjoint Set | ❌ | - |
 
 ## Algorithms
