@@ -106,3 +106,34 @@ QueueResult queue_dequeue(Queue *queue, int *out) {
     queue->size--;
     return QUEUE_OK;
 }
+
+QueueResult queue_front(const Queue *queue, int *out) {
+    if (!queue) {
+        return QUEUE_ERR_NULL;
+    }
+    if (queue->size == 0) {
+        return QUEUE_ERR_EMPTY;
+    }
+    if (out) {
+        *out = queue->data[queue->head];
+    }
+    return QUEUE_OK;
+}
+
+bool queue_is_empty(const Queue *queue) {
+    return !queue || queue->size == 0;
+}
+
+size_t queue_size(const Queue *queue) {
+    return queue ? queue->size : 0;
+}
+
+QueueResult queue_clear(Queue *queue) {
+    if (!queue) {
+        return QUEUE_ERR_NULL;
+    }
+    queue->head = 0;
+    queue->tail = 0;
+    queue->size = 0;
+    return QUEUE_OK;
+}
