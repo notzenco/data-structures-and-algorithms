@@ -1,0 +1,14 @@
+[project]
+name = "DSA"
+uuid = "12345678-1234-1234-1234-123456789012"
+version = "1.0.0"
+authors = ["DSA Contributors"]
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
