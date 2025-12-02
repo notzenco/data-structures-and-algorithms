@@ -33,27 +33,27 @@ The [`docs/`](docs/) folder contains language-agnostic explanations covering:
 
 | Data Structure | C | C++ | C# | Go | Java | PHP | Python | Rust | TypeScript |
 |----------------|---|-----|----|----|------|-----|--------|------|------------|
-| [Dynamic Array](docs/data_structures/dynamic-array.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Singly Linked List](docs/data_structures/singly-linked-list.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Doubly Linked List](docs/data_structures/doubly-linked-list.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Stack](docs/data_structures/stack.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Queue](docs/data_structures/queue.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Deque](docs/data_structures/deque.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Hash Table](docs/data_structures/hash-table.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Binary Search Tree](docs/data_structures/binary-search-tree.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Binary Min Heap](docs/data_structures/heap.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Disjoint Set](docs/data_structures/disjoint-set.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
+| [Dynamic Array](docs/data_structures/dynamic-array.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [Singly Linked List](docs/data_structures/singly-linked-list.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [Doubly Linked List](docs/data_structures/doubly-linked-list.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [Stack](docs/data_structures/stack.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [Queue](docs/data_structures/queue.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [Deque](docs/data_structures/deque.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [Hash Table](docs/data_structures/hash-table.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [Binary Search Tree](docs/data_structures/binary-search-tree.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [Binary Min Heap](docs/data_structures/heap.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [Disjoint Set](docs/data_structures/disjoint-set.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
 
 ### Algorithms
 
 | Algorithm | C | C++ | C# | Go | Java | PHP | Python | Rust | TypeScript |
 |-----------|---|-----|----|----|------|-----|--------|------|------------|
-| [Binary Search](docs/algorithms/searching/binary-search.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Insertion Sort](docs/algorithms/sorting/insertion-sort.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Merge Sort](docs/algorithms/sorting/merge-sort.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [Quick Sort](docs/algorithms/sorting/quick-sort.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [BFS](docs/algorithms/graph/bfs.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
-| [DFS](docs/algorithms/graph/dfs.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ❌ |
+| [Binary Search](docs/algorithms/searching/binary-search.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [Insertion Sort](docs/algorithms/sorting/insertion-sort.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [Merge Sort](docs/algorithms/sorting/merge-sort.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [Quick Sort](docs/algorithms/sorting/quick-sort.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [BFS](docs/algorithms/graph/bfs.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
+| [DFS](docs/algorithms/graph/dfs.md) | ✅ | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ |
 
 ## Project Structure
 
