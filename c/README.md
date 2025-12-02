@@ -34,7 +34,7 @@ c/
 | Component | Status | Files |
 |-----------|--------|-------|
 | Stack | ✅ | [stack/](data_structures/stack/) |
-| Queue | ❌ | - |
+| Queue | ✅ | [queue/](data_structures/queue/) |
 | Dynamic Array | ❌ | - |
 | Singly Linked List | ❌ | - |
 | Doubly Linked List | ❌ | - |
