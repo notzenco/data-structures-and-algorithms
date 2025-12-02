@@ -30,7 +30,7 @@ c/
 
 | Component | Status | Header | Source |
 |-----------|--------|--------|--------|
-| Stack | ❌ | - | - |
+| Stack | ✅ | [stack.h](include/dsa/stack.h) | [stack.c](src/stack.c) |
 | Queue | ❌ | - | - |
 | Dynamic Array | ❌ | - | - |
 | Singly Linked List | ❌ | - | - |
