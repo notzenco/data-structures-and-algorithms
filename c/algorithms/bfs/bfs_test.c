@@ -6,6 +6,7 @@
 #include "bfs.h"
 #include <assert.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <stdint.h>
 
 static void test_graph_create_destroy(void) {
