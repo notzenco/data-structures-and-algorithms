@@ -50,7 +50,7 @@ c/
 |-----------|--------|-------|
 | Binary Search | ✅ | [binary-search/](algorithms/binary-search/) |
 | Insertion Sort | ✅ | [insertion-sort/](algorithms/insertion-sort/) |
-| Merge Sort | ❌ | - |
+| Merge Sort | ✅ | [merge-sort/](algorithms/merge-sort/) |
 | Quick Sort | ❌ | - |
 | BFS | ❌ | - |
 | DFS | ❌ | - |

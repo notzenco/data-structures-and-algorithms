@@ -117,3 +117,11 @@ target_include_directories(insertion_sort PUBLIC algorithms/insertion-sort)
 add_executable(insertion_sort_test algorithms/insertion-sort/insertion_sort_test.c)
 target_link_libraries(insertion_sort_test PRIVATE insertion_sort)
 add_test(NAME insertion_sort_test COMMAND insertion_sort_test)
+
+# Merge Sort
+add_library(merge_sort algorithms/merge-sort/merge_sort.c)
+target_include_directories(merge_sort PUBLIC algorithms/merge-sort)
+
+add_executable(merge_sort_test algorithms/merge-sort/merge_sort_test.c)
+target_link_libraries(merge_sort_test PRIVATE merge_sort)
+add_test(NAME merge_sort_test COMMAND merge_sort_test)
