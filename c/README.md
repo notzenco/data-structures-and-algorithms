@@ -48,7 +48,7 @@ c/
 
 | Algorithm | Status | Files |
 |-----------|--------|-------|
-| Binary Search | ❌ | - |
+| Binary Search | ✅ | [binary-search/](algorithms/binary-search/) |
 | Insertion Sort | ❌ | - |
 | Merge Sort | ❌ | - |
 | Quick Sort | ❌ | - |

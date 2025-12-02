@@ -97,3 +97,15 @@ target_include_directories(disjoint_set PUBLIC data_structures/disjoint-set)
 add_executable(disjoint_set_test data_structures/disjoint-set/disjoint_set_test.c)
 target_link_libraries(disjoint_set_test PRIVATE disjoint_set)
 add_test(NAME disjoint_set_test COMMAND disjoint_set_test)
+
+# -----------------------------------------------------------------------------
+# Algorithms
+# -----------------------------------------------------------------------------
+
+# Binary Search
+add_library(binary_search algorithms/binary-search/binary_search.c)
+target_include_directories(binary_search PUBLIC algorithms/binary-search)
+
+add_executable(binary_search_test algorithms/binary-search/binary_search_test.c)
+target_link_libraries(binary_search_test PRIVATE binary_search)
+add_test(NAME binary_search_test COMMAND binary_search_test)

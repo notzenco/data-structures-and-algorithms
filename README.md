@@ -48,7 +48,7 @@ The [`docs/`](docs/) folder contains language-agnostic explanations covering:
 
 | Algorithm | C | C++ | C# | Go | PHP | Python | Rust | TypeScript |
 |-----------|---|-----|----|----|-----|--------|------|------------|
-| [Binary Search](docs/algorithms/searching/binary-search.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Binary Search](docs/algorithms/searching/binary-search.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Insertion Sort](docs/algorithms/sorting/insertion-sort.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Merge Sort](docs/algorithms/sorting/merge-sort.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Quick Sort](docs/algorithms/sorting/quick-sort.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
