@@ -1,0 +1,45 @@
+name:                dsa-haskell
+version:             1.0.0
+synopsis:            Data Structures and Algorithms in Haskell
+description:         A comprehensive collection of data structures and algorithms
+license:             MIT
+author:              DSA Contributors
+maintainer:          dsa@example.com
+
+dependencies:
+  - base >= 4.7 && < 5
+  - containers
+  - unordered-containers
+  - hashable
+  - vector
+  - mtl
+
+library:
+  source-dirs: src
+  exposed-modules:
+    - DataStructures.Stack
+    - DataStructures.Queue
+    - DataStructures.DynamicArray
+    - DataStructures.SinglyLinkedList
+    - DataStructures.DoublyLinkedList
+    - DataStructures.Deque
+    - DataStructures.HashTable
+    - DataStructures.BinarySearchTree
+    - DataStructures.MinHeap
+    - DataStructures.DisjointSet
+    - Algorithms.BinarySearch
+    - Algorithms.InsertionSort
+    - Algorithms.MergeSort
+    - Algorithms.QuickSort
+    - Algorithms.Graph
+    - Algorithms.BFS
+    - Algorithms.DFS
+
+tests:
+  dsa-test:
+    main:                Spec.hs
+    source-dirs:         test
+    dependencies:
+      - dsa-haskell
+      - hspec
+      - QuickCheck
