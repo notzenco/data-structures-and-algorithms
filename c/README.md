@@ -35,7 +35,7 @@ c/
 |-----------|--------|-------|
 | Stack | ✅ | [stack/](data_structures/stack/) |
 | Queue | ✅ | [queue/](data_structures/queue/) |
-| Dynamic Array | ❌ | - |
+| Dynamic Array | ✅ | [dynamic-array/](data_structures/dynamic-array/) |
 | Singly Linked List | ❌ | - |
 | Doubly Linked List | ❌ | - |
 | Deque | ❌ | - |

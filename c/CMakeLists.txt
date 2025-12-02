@@ -33,3 +33,11 @@ target_include_directories(queue PUBLIC data_structures/queue)
 add_executable(queue_test data_structures/queue/queue_test.c)
 target_link_libraries(queue_test PRIVATE queue)
 add_test(NAME queue_test COMMAND queue_test)
+
+# Dynamic Array
+add_library(dynamic_array data_structures/dynamic-array/dynamic_array.c)
+target_include_directories(dynamic_array PUBLIC data_structures/dynamic-array)
+
+add_executable(dynamic_array_test data_structures/dynamic-array/dynamic_array_test.c)
+target_link_libraries(dynamic_array_test PRIVATE dynamic_array)
+add_test(NAME dynamic_array_test COMMAND dynamic_array_test)
