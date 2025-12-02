@@ -26,7 +26,15 @@ c/
 │       ├── stack.c
 │       └── stack_test.c
 └── algorithms/
-    └── ...
+    ├── searching/
+    │   └── binary-search/
+    ├── sorting/
+    │   ├── insertion-sort/
+    │   ├── merge-sort/
+    │   └── quick-sort/
+    └── graph/
+        ├── bfs/
+        └── dfs/
 ```
 
 ## Data Structures
@@ -39,18 +47,30 @@ c/
 | Singly Linked List | ✅ | [singly-linked-list/](data_structures/singly-linked-list/) |
 | Doubly Linked List | ✅ | [doubly-linked-list/](data_structures/doubly-linked-list/) |
 | Deque | ✅ | [deque/](data_structures/deque/) |
-| Hash Table | ✅ | [hash-table-open-addressing/](data_structures/hash-table-open-addressing/) |
+| Hash Table | ✅ | [hash-table/](data_structures/hash-table/) |
 | Binary Search Tree | ✅ | [binary-search-tree/](data_structures/binary-search-tree/) |
 | Binary Min Heap | ✅ | [heap-binary-min/](data_structures/heap-binary-min/) |
 | Disjoint Set | ✅ | [disjoint-set/](data_structures/disjoint-set/) |
 
 ## Algorithms
 
+### Searching
+
 | Algorithm | Status | Files |
 |-----------|--------|-------|
-| Binary Search | ✅ | [binary-search/](algorithms/binary-search/) |
-| Insertion Sort | ✅ | [insertion-sort/](algorithms/insertion-sort/) |
-| Merge Sort | ✅ | [merge-sort/](algorithms/merge-sort/) |
-| Quick Sort | ✅ | [quick-sort/](algorithms/quick-sort/) |
-| BFS | ✅ | [bfs/](algorithms/bfs/) |
-| DFS | ✅ | [dfs/](algorithms/dfs/) |
+| Binary Search | ✅ | [binary-search/](algorithms/searching/binary-search/) |
+
+### Sorting
+
+| Algorithm | Status | Files |
+|-----------|--------|-------|
+| Insertion Sort | ✅ | [insertion-sort/](algorithms/sorting/insertion-sort/) |
+| Merge Sort | ✅ | [merge-sort/](algorithms/sorting/merge-sort/) |
+| Quick Sort | ✅ | [quick-sort/](algorithms/sorting/quick-sort/) |
+
+### Graph
+
+| Algorithm | Status | Files |
+|-----------|--------|-------|
+| BFS | ✅ | [bfs/](algorithms/graph/bfs/) |
+| DFS | ✅ | [dfs/](algorithms/graph/dfs/) |

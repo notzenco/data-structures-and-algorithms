@@ -67,10 +67,10 @@ target_link_libraries(deque_test PRIVATE deque)
 add_test(NAME deque_test COMMAND deque_test)
 
 # Hash Table
-add_library(hash_table data_structures/hash-table-open-addressing/hash_table.c)
-target_include_directories(hash_table PUBLIC data_structures/hash-table-open-addressing)
+add_library(hash_table data_structures/hash-table/hash_table.c)
+target_include_directories(hash_table PUBLIC data_structures/hash-table)
 
-add_executable(hash_table_test data_structures/hash-table-open-addressing/hash_table_test.c)
+add_executable(hash_table_test data_structures/hash-table/hash_table_test.c)
 target_link_libraries(hash_table_test PRIVATE hash_table)
 add_test(NAME hash_table_test COMMAND hash_table_test)
 
@@ -99,53 +99,61 @@ target_link_libraries(disjoint_set_test PRIVATE disjoint_set)
 add_test(NAME disjoint_set_test COMMAND disjoint_set_test)
 
 # -----------------------------------------------------------------------------
-# Algorithms
+# Algorithms - Searching
 # -----------------------------------------------------------------------------
 
 # Binary Search
-add_library(binary_search algorithms/binary-search/binary_search.c)
-target_include_directories(binary_search PUBLIC algorithms/binary-search)
+add_library(binary_search algorithms/searching/binary-search/binary_search.c)
+target_include_directories(binary_search PUBLIC algorithms/searching/binary-search)
 
-add_executable(binary_search_test algorithms/binary-search/binary_search_test.c)
+add_executable(binary_search_test algorithms/searching/binary-search/binary_search_test.c)
 target_link_libraries(binary_search_test PRIVATE binary_search)
 add_test(NAME binary_search_test COMMAND binary_search_test)
 
-# Insertion Sort
-add_library(insertion_sort algorithms/insertion-sort/insertion_sort.c)
-target_include_directories(insertion_sort PUBLIC algorithms/insertion-sort)
+# -----------------------------------------------------------------------------
+# Algorithms - Sorting
+# -----------------------------------------------------------------------------
 
-add_executable(insertion_sort_test algorithms/insertion-sort/insertion_sort_test.c)
+# Insertion Sort
+add_library(insertion_sort algorithms/sorting/insertion-sort/insertion_sort.c)
+target_include_directories(insertion_sort PUBLIC algorithms/sorting/insertion-sort)
+
+add_executable(insertion_sort_test algorithms/sorting/insertion-sort/insertion_sort_test.c)
 target_link_libraries(insertion_sort_test PRIVATE insertion_sort)
 add_test(NAME insertion_sort_test COMMAND insertion_sort_test)
 
 # Merge Sort
-add_library(merge_sort algorithms/merge-sort/merge_sort.c)
-target_include_directories(merge_sort PUBLIC algorithms/merge-sort)
+add_library(merge_sort algorithms/sorting/merge-sort/merge_sort.c)
+target_include_directories(merge_sort PUBLIC algorithms/sorting/merge-sort)
 
-add_executable(merge_sort_test algorithms/merge-sort/merge_sort_test.c)
+add_executable(merge_sort_test algorithms/sorting/merge-sort/merge_sort_test.c)
 target_link_libraries(merge_sort_test PRIVATE merge_sort)
 add_test(NAME merge_sort_test COMMAND merge_sort_test)
 
 # Quick Sort
-add_library(quick_sort algorithms/quick-sort/quick_sort.c)
-target_include_directories(quick_sort PUBLIC algorithms/quick-sort)
+add_library(quick_sort algorithms/sorting/quick-sort/quick_sort.c)
+target_include_directories(quick_sort PUBLIC algorithms/sorting/quick-sort)
 
-add_executable(quick_sort_test algorithms/quick-sort/quick_sort_test.c)
+add_executable(quick_sort_test algorithms/sorting/quick-sort/quick_sort_test.c)
 target_link_libraries(quick_sort_test PRIVATE quick_sort)
 add_test(NAME quick_sort_test COMMAND quick_sort_test)
 
-# BFS
-add_library(bfs algorithms/bfs/bfs.c)
-target_include_directories(bfs PUBLIC algorithms/bfs)
+# -----------------------------------------------------------------------------
+# Algorithms - Graph
+# -----------------------------------------------------------------------------
 
-add_executable(bfs_test algorithms/bfs/bfs_test.c)
+# BFS
+add_library(bfs algorithms/graph/bfs/bfs.c)
+target_include_directories(bfs PUBLIC algorithms/graph/bfs)
+
+add_executable(bfs_test algorithms/graph/bfs/bfs_test.c)
 target_link_libraries(bfs_test PRIVATE bfs)
 add_test(NAME bfs_test COMMAND bfs_test)
 
 # DFS
-add_library(dfs algorithms/dfs/dfs.c)
-target_include_directories(dfs PUBLIC algorithms/dfs)
+add_library(dfs algorithms/graph/dfs/dfs.c)
+target_include_directories(dfs PUBLIC algorithms/graph/dfs)
 
-add_executable(dfs_test algorithms/dfs/dfs_test.c)
+add_executable(dfs_test algorithms/graph/dfs/dfs_test.c)
 target_link_libraries(dfs_test PRIVATE dfs)
 add_test(NAME dfs_test COMMAND dfs_test)
