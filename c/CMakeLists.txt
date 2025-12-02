@@ -89,3 +89,11 @@ target_include_directories(heap PUBLIC data_structures/heap-binary-min)
 add_executable(heap_test data_structures/heap-binary-min/heap_test.c)
 target_link_libraries(heap_test PRIVATE heap)
 add_test(NAME heap_test COMMAND heap_test)
+
+# Disjoint Set
+add_library(disjoint_set data_structures/disjoint-set/disjoint_set.c)
+target_include_directories(disjoint_set PUBLIC data_structures/disjoint-set)
+
+add_executable(disjoint_set_test data_structures/disjoint-set/disjoint_set_test.c)
+target_link_libraries(disjoint_set_test PRIVATE disjoint_set)
+add_test(NAME disjoint_set_test COMMAND disjoint_set_test)
