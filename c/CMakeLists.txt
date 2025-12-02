@@ -25,3 +25,11 @@ target_include_directories(stack PUBLIC data_structures/stack)
 add_executable(stack_test data_structures/stack/stack_test.c)
 target_link_libraries(stack_test PRIVATE stack)
 add_test(NAME stack_test COMMAND stack_test)
+
+# Queue
+add_library(queue data_structures/queue/queue.c)
+target_include_directories(queue PUBLIC data_structures/queue)
+
+add_executable(queue_test data_structures/queue/queue_test.c)
+target_link_libraries(queue_test PRIVATE queue)
+add_test(NAME queue_test COMMAND queue_test)
