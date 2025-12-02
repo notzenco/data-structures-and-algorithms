@@ -14,13 +14,14 @@ endif()
 # Include directories
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
-# Source files (added as implementations are created)
+# Source files
 set(DSA_SOURCES
-    # src/stack.c
+    src/stack.c
 )
 
-# Create library (uncomment when sources exist)
-# add_library(dsa ${DSA_SOURCES})
+# Create library
+add_library(dsa ${DSA_SOURCES})
+target_include_directories(dsa PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 # Testing
 enable_testing()
