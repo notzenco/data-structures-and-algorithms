@@ -52,5 +52,5 @@ c/
 | Insertion Sort | ✅ | [insertion-sort/](algorithms/insertion-sort/) |
 | Merge Sort | ✅ | [merge-sort/](algorithms/merge-sort/) |
 | Quick Sort | ✅ | [quick-sort/](algorithms/quick-sort/) |
-| BFS | ❌ | - |
+| BFS | ✅ | [bfs/](algorithms/bfs/) |
 | DFS | ❌ | - |

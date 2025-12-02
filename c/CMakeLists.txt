@@ -133,3 +133,11 @@ target_include_directories(quick_sort PUBLIC algorithms/quick-sort)
 add_executable(quick_sort_test algorithms/quick-sort/quick_sort_test.c)
 target_link_libraries(quick_sort_test PRIVATE quick_sort)
 add_test(NAME quick_sort_test COMMAND quick_sort_test)
+
+# BFS
+add_library(bfs algorithms/bfs/bfs.c)
+target_include_directories(bfs PUBLIC algorithms/bfs)
+
+add_executable(bfs_test algorithms/bfs/bfs_test.c)
+target_link_libraries(bfs_test PRIVATE bfs)
+add_test(NAME bfs_test COMMAND bfs_test)
