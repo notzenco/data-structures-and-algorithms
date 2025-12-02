@@ -90,3 +90,32 @@ StackResult stack_pop(Stack *stack, int *out) {
     }
     return STACK_OK;
 }
+
+StackResult stack_peek(const Stack *stack, int *out) {
+    if (!stack) {
+        return STACK_ERR_NULL;
+    }
+    if (stack->size == 0) {
+        return STACK_ERR_EMPTY;
+    }
+    if (out) {
+        *out = stack->data[stack->size - 1];
+    }
+    return STACK_OK;
+}
+
+bool stack_is_empty(const Stack *stack) {
+    return !stack || stack->size == 0;
+}
+
+size_t stack_size(const Stack *stack) {
+    return stack ? stack->size : 0;
+}
+
+StackResult stack_clear(Stack *stack) {
+    if (!stack) {
+        return STACK_ERR_NULL;
+    }
+    stack->size = 0;
+    return STACK_OK;
+}
