@@ -51,7 +51,7 @@ The [`docs/`](docs/) folder contains language-agnostic explanations covering:
 | [Binary Search](docs/algorithms/searching/binary-search.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Insertion Sort](docs/algorithms/sorting/insertion-sort.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Merge Sort](docs/algorithms/sorting/merge-sort.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Quick Sort](docs/algorithms/sorting/quick-sort.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Quick Sort](docs/algorithms/sorting/quick-sort.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [BFS](docs/algorithms/graph/bfs.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [DFS](docs/algorithms/graph/dfs.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 

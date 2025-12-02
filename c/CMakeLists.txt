@@ -125,3 +125,11 @@ target_include_directories(merge_sort PUBLIC algorithms/merge-sort)
 add_executable(merge_sort_test algorithms/merge-sort/merge_sort_test.c)
 target_link_libraries(merge_sort_test PRIVATE merge_sort)
 add_test(NAME merge_sort_test COMMAND merge_sort_test)
+
+# Quick Sort
+add_library(quick_sort algorithms/quick-sort/quick_sort.c)
+target_include_directories(quick_sort PUBLIC algorithms/quick-sort)
+
+add_executable(quick_sort_test algorithms/quick-sort/quick_sort_test.c)
+target_link_libraries(quick_sort_test PRIVATE quick_sort)
+add_test(NAME quick_sort_test COMMAND quick_sort_test)
