@@ -29,3 +29,5 @@ target/
 # C#
 *.dll
 *.exe
+
+.dsa.egg.info
