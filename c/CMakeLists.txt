@@ -109,3 +109,11 @@ target_include_directories(binary_search PUBLIC algorithms/binary-search)
 add_executable(binary_search_test algorithms/binary-search/binary_search_test.c)
 target_link_libraries(binary_search_test PRIVATE binary_search)
 add_test(NAME binary_search_test COMMAND binary_search_test)
+
+# Insertion Sort
+add_library(insertion_sort algorithms/insertion-sort/insertion_sort.c)
+target_include_directories(insertion_sort PUBLIC algorithms/insertion-sort)
+
+add_executable(insertion_sort_test algorithms/insertion-sort/insertion_sort_test.c)
+target_link_libraries(insertion_sort_test PRIVATE insertion_sort)
+add_test(NAME insertion_sort_test COMMAND insertion_sort_test)
