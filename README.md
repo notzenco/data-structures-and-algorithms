@@ -53,7 +53,7 @@ The [`docs/`](docs/) folder contains language-agnostic explanations covering:
 | [Merge Sort](docs/algorithms/sorting/merge-sort.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Quick Sort](docs/algorithms/sorting/quick-sort.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [BFS](docs/algorithms/graph/bfs.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [DFS](docs/algorithms/graph/dfs.md) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [DFS](docs/algorithms/graph/dfs.md) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ## Project Structure
 

@@ -141,3 +141,11 @@ target_include_directories(bfs PUBLIC algorithms/bfs)
 add_executable(bfs_test algorithms/bfs/bfs_test.c)
 target_link_libraries(bfs_test PRIVATE bfs)
 add_test(NAME bfs_test COMMAND bfs_test)
+
+# DFS
+add_library(dfs algorithms/dfs/dfs.c)
+target_include_directories(dfs PUBLIC algorithms/dfs)
+
+add_executable(dfs_test algorithms/dfs/dfs_test.c)
+target_link_libraries(dfs_test PRIVATE dfs)
+add_test(NAME dfs_test COMMAND dfs_test)

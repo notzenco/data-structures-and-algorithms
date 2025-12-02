@@ -53,4 +53,4 @@ c/
 | Merge Sort | ✅ | [merge-sort/](algorithms/merge-sort/) |
 | Quick Sort | ✅ | [quick-sort/](algorithms/quick-sort/) |
 | BFS | ✅ | [bfs/](algorithms/bfs/) |
-| DFS | ❌ | - |
+| DFS | ✅ | [dfs/](algorithms/dfs/) |
