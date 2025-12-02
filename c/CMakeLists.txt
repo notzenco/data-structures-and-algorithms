@@ -49,3 +49,11 @@ target_include_directories(singly_linked_list PUBLIC data_structures/singly-link
 add_executable(singly_linked_list_test data_structures/singly-linked-list/singly_linked_list_test.c)
 target_link_libraries(singly_linked_list_test PRIVATE singly_linked_list)
 add_test(NAME singly_linked_list_test COMMAND singly_linked_list_test)
+
+# Doubly Linked List
+add_library(doubly_linked_list data_structures/doubly-linked-list/doubly_linked_list.c)
+target_include_directories(doubly_linked_list PUBLIC data_structures/doubly-linked-list)
+
+add_executable(doubly_linked_list_test data_structures/doubly-linked-list/doubly_linked_list_test.c)
+target_link_libraries(doubly_linked_list_test PRIVATE doubly_linked_list)
+add_test(NAME doubly_linked_list_test COMMAND doubly_linked_list_test)

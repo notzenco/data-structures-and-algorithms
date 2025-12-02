@@ -37,7 +37,7 @@ c/
 | Queue | ✅ | [queue/](data_structures/queue/) |
 | Dynamic Array | ✅ | [dynamic-array/](data_structures/dynamic-array/) |
 | Singly Linked List | ✅ | [singly-linked-list/](data_structures/singly-linked-list/) |
-| Doubly Linked List | ❌ | - |
+| Doubly Linked List | ✅ | [doubly-linked-list/](data_structures/doubly-linked-list/) |
 | Deque | ❌ | - |
 | Hash Table | ❌ | - |
 | Binary Search Tree | ❌ | - |
